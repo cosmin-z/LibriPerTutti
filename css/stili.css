@@ -1,0 +1,144 @@
+/*comando per avere uno spazio in più tra la navbar e le varie finestre*/
+body{
+    padding-top: 50px;
+}
+/*------pagina fqa-----------*/
+
+.fqa { /*dimensioni immagine*/
+    width:500px;
+    height: 400px;
+    display: block;
+}
+/************************/
+
+
+/*-------index--------------*/
+
+.colore-primario{ /*colore login*/
+    background-color: #bbdef0;
+}
+
+.margini-arrotondati{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.margini-arrotondati-tabella{
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+tr.informazioni {/*per nascondere alcune righe*/
+    background-color: rgba(0,0,0,0.08);
+    display: none;
+}
+
+
+.carousel img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;;
+}
+
+.errore-login {/*messaggio di errore login*/
+   color: #ff3f4e;
+    font-size: x-small;
+
+}
+
+.policymargin{/*il testo sotto l'immagine, dopo aver fatto il login*/
+    text-align:center;
+}
+
+/**********************/
+
+/*-----------parte registrazione---------- */
+
+.btn-col-1{/*colore bottone registrati*/
+    background-color: #E7718B;
+}
+
+.cont-dim{/*dimensione container*/
+    width: 800px;
+    height: auto;
+}
+
+.btn-col-2{/*colore bottone cancella tutto*/
+    background-color: #D7D8DB;
+}
+
+label{/*stile per tutte le label nella form*/
+    margin: auto;
+    text-align:center;
+
+}
+
+.font-registra {
+    font-size: 36px;
+}
+
+
+/*********************/
+
+
+/*---------vendi----------*/
+
+.celeste{/*colore finestra*/
+    background-color: rgba(19, 194, 247, 0.22)
+}
+
+#scelta{ /* per nascondere il numero di telefono */
+    display: none;
+}
+/**********************/
+
+/*----------login dell'index-----------------*/
+
+.coloresfondo{/*per togliere il colore di sfondo vecchio e mettercene uno mio*/
+    background: none !important;
+}
+/********************/
+
+/*-----------About us---------------*/
+.colorAU{/*colore di sfondo*/
+    background-color: #D7EDFE;
+}
+
+.colorAU1{/*colore bottoni pagina instagram*/
+    background-color: rgba(238, 89, 48, 0.82);
+}
+/********************/
+
+/*--------------profilo----------------*/
+.fit-image{ /* per contenere l'immagine nelle celle correttamente*/
+    object-fit: contain;
+}
+
+form.eliminaLibro {/*per tenere il tasto cancella allineato con il tasto opzione*/
+    display: inline-block;
+}
+
+.datiLibro { /*per allineare correttamente le form dentro l'opzione modifica*/
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+.datiLibro label {/*idem sopra*/
+    margin: initial;
+    text-align: initial;
+}
+/***********************/
+
+/*----------autocompletamento--------- */
+ul#ui-id-1 { /*per non sovrapporre i suggerimenti nella barra di ricerca*/
+    position: absolute;
+    z-index: 100000;
+}
+
+/*-------nessunRisultato--------*/
+.gif{
+    width: 50%;
+}
+
